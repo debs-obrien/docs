@@ -83,6 +83,14 @@ export default {
 - Type: `String` or `Boolean`
 - Default: `'200.html'`
 
+```js
+export default {
+  generate: {
+    fallback: true
+  }
+}
+```
+
 The path to the SPA fallback. This file can be used when doing deploys of generated sites to static hosting. It falls back to `mode: 'spa'` when a route isn't generated.
 
 ## interval
